@@ -1,0 +1,63 @@
+--label_images
+--skip_existing
+--input_run_folder ../../../Datasets/Pets2006/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+
+-------------------------------------------
+ This will perform Labelling on the DARPA Dataset
+-------------------------------------------
+--label_images
+--skip_existing
+--input_run_folder ../../../Datasets/DARPA_IMG_SET/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+
+-------------------------------------------
+This is to Re-label the ground truth
+-------------------------------------------
+--label_images
+--input_run_folder ../../../Datasets/Pets2006/test
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+-------------------------------------------
+This is to Label the Ground Truth
+-------------------------------------------
+--label_images
+--ground_truth
+--input_run_folder ../../../Datasets/Pets2006/test
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+
+
+-------------------------------------------
+This is to Label the Ground Truth Demo
+-------------------------------------------
+--label_images
+--ground_truth
+--input_run_folder /home/hrushi/Videos/Demo/test
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+
+
+-------------------------------------------
+This is the labelling for the big PETS2006 dataset
+-------------------------------------------
+--label_images
+--input_run_folder /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+--skip_width 50
+--skip_height 150
+--useGroundTruth

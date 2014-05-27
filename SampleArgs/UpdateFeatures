@@ -1,0 +1,89 @@
+--update_features
+--all
+--input_run_folder ../../../Datasets/Pets2006/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+
+-------------------------------------
+Update Pose
+
+--update_features
+--pose
+--input_run_folder ../../../Datasets/Pets2006/train
+--training_data_path ../../../Datasets/Pets2006/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+------------------------------------------
+Update Prior Probs
+
+--update_features
+--prior_prob
+--input_run_folder ../../../Datasets/Pets2006/train
+--training_data_path ../../../Datasets/Pets2006/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+----------------------------------------------
+Update Location Probability Images
+
+--update_features
+--loc_probability
+--input_run_folder ../../../Datasets/Pets2006/train
+--training_data_path ../../../Datasets/Pets2006/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+-------------------------------------
+Update Shape
+
+--update_features
+--shape
+--input_run_folder ../../../Datasets/Pets2006/train
+--training_data_path ../../../Datasets/Pets2006/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+
+
+-------------------------------------
+Update Appearance
+
+--update_features
+--appearance
+--input_run_folder ../../../Datasets/Pets2006/train
+--training_data_path ../../../Datasets/Pets2006/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+
+---------------------------------------
+Update Appearance 
+
+--update_features
+--appearance
+--input_run_folder ../../../Datasets/From_AI_LAB/train
+--training_data_path ../../../Datasets/From_AI_LAB/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+
+-------------------------------------------
+Update Appearance Demo
+--update_features
+--appearance
+--input_run_folder  /home/hrushi/Videos/Demo/train
+--training_data_path  /home/hrushi/Videos/Demo/train
+--track_folder_name track
+--mask_folder_name mask
+--now
+
+

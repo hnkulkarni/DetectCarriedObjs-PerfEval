@@ -1,0 +1,96 @@
+
+----------------------- Run on multiple images via Pose ---------------------------------------------------
+--multiple_images
+--training_data_path ../../../Datasets/Pets2006/train
+--input_run_folder ../../../Datasets/Pets2006/test
+--track_folder_name track
+--mask_folder_name mask
+--mode pose
+
+
+------------------------------------- Run on multiple images via location -------------------------------------
+--multiple_images
+--training_data_path ../../../Datasets/Pets2006/train
+--input_run_folder ../../../Datasets/Pets2006/test
+--track_folder_name track
+--mask_folder_name mask
+--mode location
+
+
+----------------------- Run on multiple images via Shape ---------------------------------------------------
+--multiple_images
+--training_data_path ../../../Datasets/Pets2006/train
+--input_run_folder ../../../Datasets/Pets2006/test
+--track_folder_name track
+--mask_folder_name mask
+--mode shape
+
+----------------------- Run on multiple images via Shape ---------------------------------------------------
+--multiple_images
+--training_data_path ../../../Datasets/Pets2006/train
+--input_run_folder ../../../Datasets/Pets2006/test
+--track_folder_name track
+--mask_folder_name mask
+--mode appearance
+
+---------------------- Run Multiple images on AI_Lab Images --------------------------
+--multiple_images
+--training_data_path ../../../Datasets/From_AI_LAB/train
+--input_run_folder ../../../Datasets/From_AI_LAB/test
+--track_folder_name track
+--mask_folder_name mask
+--mode appearance
+
+
+---------------------- Run Multiple images DEMO  --------------------------
+--multiple_images
+--training_data_path /home/hrushi/Videos/Demo/test
+--input_run_folder /home/hrushi/Videos/Demo/test
+--track_folder_name track
+--mask_folder_name mask
+--mode appearance
+
+---------------------- Run Multiple images on Pets data with Aux Optional Inputs  --------------------------
+--multiple_images
+--training_data_path ../../../Datasets/Pets2006/train
+--input_run_folder ../../../Datasets/Pets2006/test
+--track_folder_name track
+--mask_folder_name mask
+--mode location
+--skip_width 15
+--usePoseOverlap
+
+--------------------- Run Multiple images on the PETS dataset with in "All" mode --------------------
+--multiple_images
+--training_data_path ../../../Datasets/Pets2006/train
+--input_run_folder ../../../Datasets/Pets2006/test
+--track_folder_name track
+--mask_folder_name mask
+--mode all
+--skip_width 15
+--usePoseOverlap
+
+-------------------------- MyPets ---------------------------------
+--multiple_images
+--input_run_folder /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/test
+--training_data_path /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train
+--track_folder_name track
+--mask_folder_name mask
+--mode all
+--skip_width 50
+--skip_height 120
+--usePoseOverlap
+
+
+
+-------------------------- MyPets ---------------------------------
+--multiple_images
+--input_run_folder /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS10/test
+--training_data_path /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train
+--track_folder_name track
+--mask_folder_name mask
+--skip_width 50
+--skip_height 120
+--usePoseOverlap
+--useGroundTruth
+--mode shape

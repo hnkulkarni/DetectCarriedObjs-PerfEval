@@ -1,0 +1,19 @@
+--single_image
+--input_path ../../../Datasets/CarriedObject/Pos/STOPS_20111214_CR1_02_C5/track/t65f2150_STOPS_20111214_CR1_02_C5.png
+--mask_path ../../../Datasets/CarriedObject/Pos/STOPS_20111214_CR1_02_C5/mask/mask_t65f2150_STOPS_20111214_CR1_02_C5.png
+--input_run_folder ../../../Datasets/CarriedObject
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+--single_image 
+--input_path ../../../Datasets/Pets2006/test/pos/56/track/371.jpg
+--mask_path ../../../Datasets/Pets2006/test/pos/56/mask/mask_371.jpg
+--training_data_path ../../../Datasets/Pets2006/train
+--input_run_folder  ../../../Datasets/Pets2006/test
+--track_folder_name track
+--mask_folder_name mask
+--mode pose
+--skip_IfNoPose
+
+-------------------------------------------------------------------------------------------------------

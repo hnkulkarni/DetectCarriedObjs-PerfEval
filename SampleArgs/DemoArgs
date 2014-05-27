@@ -1,0 +1,15 @@
+--demo
+--training_data_path /home/hrushi/Videos/Demo/train
+--input_run_folder /home/hrushi/Videos/Demo/test
+--track_folder_name track
+--mask_folder_name mask
+--mode location
+
+-------------------------------------------------------------------------------
+--demo
+--training_data_path /s/parsons/h/proj/vision/usr/hrushi/DataSets/Demo
+--input_run_folder /s/parsons/h/proj/vision/usr/hrushi/DataSets/Demo
+--track_folder_name track
+--mask_folder_name mask
+--mode location
+-------------------------------------------------------------------------------

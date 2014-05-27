@@ -1,0 +1,10 @@
+--update_features --prior_prob --input_run_folder /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train --training_data_path /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train --track_folder_name track --mask_folder_name mask --now
+
+--update_features --pose --input_run_folder /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train --training_data_path /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train --track_folder_name track --mask_folder_name mask --now
+
+--update_features --shape --input_run_folder /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train --training_data_path /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train --track_folder_name track --mask_folder_name mask --now
+
+--update_features --appearance --input_run_folder /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train --training_data_path /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train --track_folder_name track --mask_folder_name mask --now
+
+--update_features --person_loc --input_run_folder /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train --training_data_path /s/parsons/h/proj/vision/usr/hrushi/Experiments/MyPETS/train --track_folder_name track --mask_folder_name mask --now
+
