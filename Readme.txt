@@ -22,7 +22,3 @@ This 'makes' the executable in the code
 
 -Readme.txt:
 This document that you are reading now.
-
-
-The memoriable day: April 15, 2014. I deleted my important file a few minutes before the meeting.
-Now in Dropbox
